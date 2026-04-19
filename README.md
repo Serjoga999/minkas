@@ -7,7 +7,7 @@ Projects tiks versionets ar Git un tiks izvietots GitHub*
 (https://png.pngtree.com/png-vector/20250808/ourmid/pngtree-cute-pixel-art-cat-png-image_16760180.webp)
 
 **Daramo darbu saraksts:**
-- [ ] Izveidot klasi "Minka"
+- [x] Izveidot klasi "Minka"
 - [ ] Izveidot klasei "MinkuTante"
 - [ ] Izveidot klasi "DarbsArFailu"
 - [ ] Versionet visu izstrades procesu
