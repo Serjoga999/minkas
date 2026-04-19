@@ -135,7 +135,6 @@ public class MinkuTante {
                             break;
                         }
 
-                        // IZLABOTS: Pievienotas visas metodes
                         switch (m) {
                             case "Paglaudit":
                                 runcis.murrat();
@@ -173,7 +172,7 @@ public class MinkuTante {
                                 break;
                         }
                     } else {
-                        // IZLABOTS: showMessageDialog, nevis showConfirmDialog
+
                         JOptionPane.showMessageDialog(null,
                                 "Vispirms izveidojiet kaķi!",
                                 "Kļūda",
@@ -182,23 +181,25 @@ public class MinkuTante {
                     break;
 
                 case "Saglabat faila":
-                    JOptionPane.showMessageDialog(null,
-                            "Saglabāšana failā vēl nav implementēta\nCeļš: " + filaNosaukums,
-                            "Informācija",
-                            JOptionPane.INFORMATION_MESSAGE);
+                    if (runcis != null) {
+                        DarbsArFailu.saglabat(runcis, filaNosaukums);
+                    } else {
+                        JOptionPane.showMessageDialog(null,
+                                "Vispirms izveidojiet kaķi!",
+                                "Brīdinājums",
+                                JOptionPane.WARNING_MESSAGE);
+                    }
                     break;
 
                 case "Apskatit saglabatos kakus":
-                    JOptionPane.showMessageDialog(null,
-                            "Saglabāto kaķu apskate vēl nav implementēta",
-                            "Informācija",
-                            JOptionPane.INFORMATION_MESSAGE);
+                    DarbsArFailu.nolasit(filaNosaukums);
                     break;
 
                 case "Aizvert":
-                    JOptionPane.showMessageDialog(null, "Uz redzēšanos!");
+                    JOptionPane.showMessageDialog(null,
+                            "Uz redzēšanos!");
                     break;
-                    
+
             }
         } while (!izvelne.equals("Aizvert"));
     }
