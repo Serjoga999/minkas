@@ -2,7 +2,6 @@ package uzdevums1;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.im.spi.InputMethod;
 import java.net.URL;
 import java.time.Year;
 import java.util.Random;
@@ -38,7 +37,7 @@ public class Minka {
         if(!cels.endsWith(".jpg"))
             cels += ".jpg";
 
-        URL resurss = getClass().getResource("/atteli"+cels);
+        URL resurss = getClass().getResource("/atteli/"+cels);
         if(resurss != null) {
             return new ImageIcon(new ImageIcon(resurss).
                     getImage().
