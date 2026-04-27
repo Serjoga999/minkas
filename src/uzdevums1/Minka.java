@@ -62,7 +62,7 @@ public class Minka {
 
     String nolasitAtributus() {
         return vards + " ir " + vecums + "gadu vecs "
-                + " skirnaes kskis ar " + spalvasKrasa +
+                + " skirnaes kakis ar " + spalvasKrasa +
                 " karsas kazoks. " + "\nKakim " +
                 ((siksnina) ? "ir" : "nav") + " siksnina. " +
                 "\nKaka saimnieks ir " + saimnieks+

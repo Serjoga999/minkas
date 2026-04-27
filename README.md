@@ -9,8 +9,8 @@ Projects tiks versionets ar Git un tiks izvietots GitHub*
 **Daramo darbu saraksts:**
 - [x] Izveidot klasi "Minka"
 - [x] Izveidot klasei "MinkuTante"
-- [ ] Izveidot klasi "DarbsArFailu"
-- [ ] Versionet visu izstrades procesu
+- [x] Izveidot klasi "DarbsArFailu"
+- [x] Versionet visu izstrades procesu
 - [ ] Kludu labojumi ("Izveidot kaki")
-- [ ] Izvietot projectu GitHub
+- [x] Izvietot projectu GitHub
 - [ ] Sagatavot projektu .jar failu

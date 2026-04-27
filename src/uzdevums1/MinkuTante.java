@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 public class MinkuTante {
 
-    static String virknesParbaude(String zinojums, String noklusejums){
+    static String virknesParbaude(String zinojums, String noklusejums) {
         String virkne;
         do {
             virkne = JOptionPane.showInputDialog(zinojums, noklusejums);
